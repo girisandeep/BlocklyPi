@@ -35,7 +35,9 @@ Blockly.JavaScript['control_key_down'] = function(block) {
 		keyCode = 39;
 	} else if (dropdown_key === 'LEFT') {
 		keyCode = 37;
-	} else {
+	} else if(dropdown_key === 'SPACE'){
+		keyCode = 32;	
+	}else {
 		return '';
 	}
     
