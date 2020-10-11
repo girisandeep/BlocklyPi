@@ -19,7 +19,7 @@ Blockly.Blocks['control_key_down'] = {
 		this.setColour(210);
 		this.appendDummyInput().appendField(new Blockly.FieldDropdown([
                         [ "On ↓ key", "DOWN" ],	[ "On ↑ key", "UP" ], 
-                        [ "On ← key", "LEFT" ],	[ "On → key", "RIGHT" ] ]), "KEY")
+                        [ "On ← key", "LEFT" ],	[ "On → key", "RIGHT" ],[ "On space key", "SPACE"] ]), "KEY")
             .appendField(new Blockly.FieldDropdown([ [ "up", "UP" ], [ "down", "DOWN" ] ]), "TYPE");
         
 		this.appendStatementInput("STATEMENTS");
